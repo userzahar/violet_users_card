@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom"
 import { lazy } from "react";
+import { Header } from "./Header/Header";
 
 const Homepage = lazy(() => import('pages/Homepage/Homepage'));
 const Tweets = lazy(() => import('pages/Tweets/Tweets'));
